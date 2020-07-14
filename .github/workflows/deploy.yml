@@ -1,7 +1,6 @@
 name: Deploy to server
 on:
-  pull_request:
-    types: [closed]
+  push:
     branches:
       - master
 
