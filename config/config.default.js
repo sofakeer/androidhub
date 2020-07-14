@@ -102,7 +102,7 @@ module.exports = (appInfo) => {
     "www.google-analytics.com",
   ];
 
-  config.auth_cookie_name = "node_club";
+  config.auth_cookie_name = "android_hub";
   config.admins = {
     ADMIN_USER: true,
   };
@@ -135,8 +135,8 @@ module.exports = (appInfo) => {
 
   // passport
   config.passportGithub = {
-    key: process.env.EGG_PASSPORT_GITHUB_CLIENT_ID || "test",
-    secret: process.env.EGG_PASSPORT_GITHUB_CLIENT_SECRET || "test",
+    key: process.env.EGG_PASSPORT_GITHUB_CLIENT_ID || "6f07adc7c5b92b54ef29",
+    secret: process.env.EGG_PASSPORT_GITHUB_CLIENT_SECRET || "308d26e526a3ddafbe7dec24b61dbd4300e980cb",
   };
 
   config.passportLocal = {
