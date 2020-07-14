@@ -53,15 +53,15 @@ $ open http://localhost:7001/
 
 ### Deploy
 
-```js 
+```js
 // {app_root}/config/config.prod.js
 
 exports.mini_assets = true;
 
 exports.alinode = {
   // 从 `Node.js 性能平台` 获取对应的接入参数
-  appid: process.env.EGG_ALINODE_APPID || '',
-  secret: process.env.EGG_ALINODE_SECRET || '',
+  appid: process.env.EGG_ALINODE_APPID || "",
+  secret: process.env.EGG_ALINODE_SECRET || "",
 };
 ```
 
