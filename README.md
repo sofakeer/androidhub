@@ -6,15 +6,7 @@
 [![David deps][david-image]][david-url]
 [![Known Vulnerabilities][snyk-image]][snyk-url]
 
-[egg-image]: https://img.shields.io/badge/Powered%20By-Egg.js-ff69b4.svg?style=flat-square
-[travis-image]: https://img.shields.io/travis/cnodejs/egg-cnode.svg?style=flat-square
-[travis-url]: https://travis-ci.org/cnodejs/egg-cnode
-[codecov-image]: https://img.shields.io/codecov/c/github/cnodejs/egg-cnode.svg?style=flat-square
-[codecov-url]: https://codecov.io/gh/cnodejs/egg-cnode
-[david-image]: https://img.shields.io/david/cnodejs/egg-cnode.svg?style=flat-square
-[david-url]: https://david-dm.org/cnodejs/egg-cnode
-[snyk-image]: https://snyk.io/test/github/cnodejs/egg-cnode/badge.svg?style=flat-square
-[snyk-url]: https://snyk.io/test/github/cnodejs/egg-cnode
+![Deploy to server](https://github.com/sofakeer/androidhub/workflows/Deploy%20to%20server/badge.svg)
 
 ## QuickStart
 
