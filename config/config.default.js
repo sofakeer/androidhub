@@ -37,7 +37,7 @@ module.exports = (appInfo) => {
   };
 
   // 是否允许直接注册（否则只能走 github 的方式）
-  config.allow_sign_up = true;
+  config.allow_sign_up = false;
 
   // cdn host，如 http://cnodejs.qiniudn.com
   config.site_static_host = process.env.EGG_SITE_STATIC_HOST || ""; // 静态文件存储域名
@@ -136,7 +136,9 @@ module.exports = (appInfo) => {
   // passport
   config.passportGithub = {
     key: process.env.EGG_PASSPORT_GITHUB_CLIENT_ID || "6f07adc7c5b92b54ef29",
-    secret: process.env.EGG_PASSPORT_GITHUB_CLIENT_SECRET || "308d26e526a3ddafbe7dec24b61dbd4300e980cb",
+    secret:
+      process.env.EGG_PASSPORT_GITHUB_CLIENT_SECRET ||
+      "308d26e526a3ddafbe7dec24b61dbd4300e980cb",
   };
 
   config.passportLocal = {
