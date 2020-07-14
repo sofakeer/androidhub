@@ -1,11 +1,5 @@
 # cnode
 
-[![powered by Egg.js][egg-image]][egg]
-[![build status][travis-image]][travis-url]
-[![Test coverage][codecov-image]][codecov-url]
-[![David deps][david-image]][david-url]
-[![Known Vulnerabilities][snyk-image]][snyk-url]
-
 ![Deploy to server](https://github.com/sofakeer/androidhub/workflows/Deploy%20to%20server/badge.svg)
 
 ## QuickStart
