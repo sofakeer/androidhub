@@ -1,6 +1,6 @@
 #!/bin/bash
 
-WEB_PATH=$(dirname $0)
+WEB_PATH='/root/mynode'
 # WEB_USER='root'
 # WEB_USERGROUP='root'
 
