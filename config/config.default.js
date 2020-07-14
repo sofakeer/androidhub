@@ -4,9 +4,9 @@ const path = require('path');
 module.exports = appInfo => {
   const config = {};
 
-  config.name = 'CNode技术社区';
+  config.name = 'Android技术社区';
 
-  config.description = 'CNode：Node.js专业中文社区';
+  config.description = 'AndroidHub：Android专业中文社区';
 
   config.site_logo = '/public/images/cnodejs_light.svg';
 
