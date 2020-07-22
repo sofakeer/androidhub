@@ -135,7 +135,7 @@ module.exports = (appInfo) => {
 
   // passport
   config.passportGithub = {
-    callbackURL: "https://androidhub.cn/passport/github/callback",
+    callbackURL: "/passport/github/callback",
     key: process.env.EGG_PASSPORT_GITHUB_CLIENT_ID || "6f07adc7c5b92b54ef29",
     secret:
       process.env.EGG_PASSPORT_GITHUB_CLIENT_SECRET ||
