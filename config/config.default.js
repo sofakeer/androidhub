@@ -6,6 +6,8 @@ module.exports = (appInfo) => {
 
   config.name = "Android技术社区";
 
+  config.google_tracker_id = "UA-98661850-1";
+
   config.description = "Android专业中文社区";
 
   config.site_logo = "/public/images/cnodejs_light.svg";
