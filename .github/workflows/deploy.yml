@@ -21,11 +21,14 @@ jobs:
         uses: zcong1993/actions-ding@master
         with:
           dingToken: ${{ secrets.DING_TOKEN }}
+          ignoreError: true
           body: |
             {
               "msgtype": "link",
               "link": {
                   "title": "发布完成",
+                  "picUrl": "",
+                  "text": "ok",
                   "messageUrl": "https://github.com/sofakeer/androidhub/actions"
               }
             }
