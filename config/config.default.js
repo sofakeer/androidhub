@@ -141,6 +141,7 @@ module.exports = appInfo => {
   config.passportGithub = {
     callbackURL: '/passport/github/callback',
     key: '6f07adc7c5b92b54ef29',
+    proxy: true,
     secret: 'b2731bc7d7c995a4dadd2fb5161ef4c8fdd2ee8d',
   };
 
