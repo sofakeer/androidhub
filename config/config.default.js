@@ -4,6 +4,8 @@ const path = require("path");
 module.exports = (appInfo) => {
   const config = {};
 
+  config.proxy = true;
+
   config.name = "Android技术社区";
 
   config.google_tracker_id = "UA-98661850-1";
