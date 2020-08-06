@@ -17,14 +17,14 @@ module.exports = appInfo => {
   config.site_icon = '/public/images/cnode_icon_32.png';
 
   // debug 为 true 时，用于本地调试
-  config.debug = true;
+  config.debug = false;
 
   // use for cookie sign key, should change to your own and keep security
   config.keys = appInfo.name + '_1519887194138_3450';
 
   config.host = 'http://cnodejs.org';
 
-  config.session_secret = 'node_club_secret'; // 务必修改
+  config.session_secret = 'android_hub*&^%_secret'; // 务必修改
 
   // add your config here
   config.middleware = [
@@ -69,13 +69,13 @@ module.exports = appInfo => {
 
   // 7牛的access信息，用于文件上传
   config.qn_access = {
-    accessKey: 'your access key',
-    secretKey: 'your secret key',
-    bucket: 'your bucket name',
-    origin: 'http://your qiniu domain',
+    accessKey: 'Vi1YkYcUHaEuhK57YwWNxlGoiedG70sLk0thkGwi',
+    secretKey: '2F5OW3t5HcIhjL44rxjk02bocpfrhDur5woZAu5n',
+    bucket: 'androidhubhk',
+    origin: 'http://s3-ap-southeast-1.qiniucs.com',
     // 如果vps在国外，请使用 http://up.qiniug.com/ ，这是七牛的国际节点
     // 如果在国内，此项请留空
-    uploadURL: 'http://xxxxxxxx',
+    uploadURL: 'http://up.qiniug.com/',
   };
 
   // 文件上传配置
