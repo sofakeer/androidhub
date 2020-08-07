@@ -104,7 +104,7 @@ module.exports = app => {
   router.get('/api', page.api);
 
   // rss
-  router.get('/rss', rss.index);
+  // router.get('/rss', rss.index);
 
   router.get('/search', search.index);
 };
