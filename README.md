@@ -1,12 +1,17 @@
+## 问问自己这个域名几年了？
+
+你的想法多少年了，你做了什么，你想的太多了，你啥都没有做！
+你真的去努力了吗？你真的用心去做了吗！
+
 # cnode
+
 - 常见问题
 - 最新技术
 - 版本查询
 - 优秀课程
 - 代码片段
 - 代码库
-- 
-
+-
 
 # cnode
 
@@ -79,6 +84,3 @@ $ npm stop
 - [Develop / Deploy with Docker](tutorials/Docker.md)
 
 [egg]: https://eggjs.org
-
-
-
