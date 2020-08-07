@@ -108,7 +108,7 @@ module.exports = appInfo => {
 
   config.auth_cookie_name = 'android_hub';
   config.admins = {
-    ADMIN_USER: true,
+    sofakeer: true,
   };
 
   config.siteFile = {
