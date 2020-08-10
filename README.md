@@ -11,7 +11,23 @@
 - 优秀课程
 - 代码片段
 - 代码库
--
+- 代码块，效果库
+
+Tiktok Product Reviews
+
+Import Tiktok Product Videos by Vevz
+
+It's an easy and powerful way to add tiktok videos to your store
+
+1.选择商品，关联视频 2.视频显示列表，视频打开样式
+
+1. 授权后获取商品了商品
+2. 要检查他模板是否有增加视频，加的是什么，是不是本地数据要记录
+3. 后台展示所有配置的适配列表
+4. 确定后把代码更新到模板中,并且遮挡，要同步 shopnow 和颜色 好难！
+
+Tiktok 短视频的时代，视频导入到 shopify ，同时 shopfiy 里面有视频
+0 授权成功后就可以把代码更新到项目里面 1.获取列表展示 2.添加视频做好关联，然后接口读取数据展示
 
 # cnode
 

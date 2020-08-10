@@ -52,6 +52,7 @@ module.exports = appInfo => {
   config.tabs = [
     [ 'share', '分享' ],
     [ 'ask', '问答' ],
+    [ 'interview', '面试' ],
     [ 'job', '招聘' ],
   ];
 
